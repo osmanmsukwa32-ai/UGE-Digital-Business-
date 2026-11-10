@@ -1,0 +1,238 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #222;
+}
+
+header {
+    background: #071b35;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    color: #00d4ff;
+    font-size: 30px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    display: inline-block;
+}
+
+.hero {
+    background: linear-gradient(135deg, #071b35, #005b96);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #00c8ff;
+    color: #071b35;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 400px;
+    box-shadow: 0 4px 10px #0001;
+}
+
+.card h3 {
+    color: #005b96;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #071b35;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#searchInput {
+    width: 90%;
+    max-width: 500px;
+    padding: 14px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.categories {
+    margin: 20px 0;
+}
+
+.categories button {
+    margin: 5px;
+    background: #071b35;
+    color: white;
+}
+
+.marketplace {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(220px, 1fr)
+    );
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.product {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+.product h3 {
+    color: #005b96;
+    margin-bottom: 15px;
+}
+
+.product h4 {
+    color: #008000;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.product button {
+    width: 100%;
+}
+
+.details {
+    background: white;
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #0002;
+    text-align: left;
+}
+
+.details h2 {
+    color: #005b96;
+    margin-bottom: 15px;
+}
+
+.details h3 {
+    color: green;
+    margin: 20px 0;
+}
+
+.details ul {
+    padding-left: 25px;
+    line-height: 2;
+}
+
+.details button {
+    width: 100%;
+    margin-top: 12px;
+}
+
+#cart {
+    background: white;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+.cart-item {
+    padding: 15px;
+    margin: 12px 0;
+    background: #f1f5f9;
+    border-radius: 10px;
+}
+
+.cart-item button {
+    background: #d62828;
+    color: white;
+}
+
+#cartTotal {
+    color: green;
+    margin: 20px;
+}
+
+/* UGE ADMIN DASHBOARD */
+
+#admin {
+    background: #eaf1f8;
+    padding: 30px 15px;
+}
+
+#adminPanel {
+    background: white;
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.admin-card {
+    background: #071b35;
+    color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+}
+
+#adminPanel input,
+#adminPanel textarea,
+#adminPanel select {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#adminProducts {
+    margin-top: 20px;
+}
+
+.admin-product {
+    background: #f1f5f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
